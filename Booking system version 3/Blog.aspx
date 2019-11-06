@@ -17,7 +17,6 @@
 <link href="plugins/jquery-datepicker/jquery-ui.css" rel="stylesheet" type="text/css"/>
 <link rel="stylesheet" type="text/css" href="styles/blog.css"/>
 <link rel="stylesheet" type="text/css" href="styles/blog_responsive.css"/>
-
 </head>
 <body>
         <div class="super_container">
@@ -28,7 +27,7 @@
 		<div class="header_content d-flex flex-column align-items-center justify-content-lg-end justify-content-center">
 			
 			<!-- Logo -->
-			<div class="logo"><a href="#"><img class="logo_1" src="images/logo.png" alt=""/><img class="logo_2" src="images/logo_2.png" alt=""/><img class="logo_3" src="images/logo_3.png" alt=""/></a></div>
+			<div class="logo"><a href="#"><img class="logo_1" src="image/logo.png" alt=""/><img class="logo_2" src="image/logo_2.png" alt=""/><img class="logo_3" src="image/logo_3.png" alt=""/></a></div>
 
 			<!-- Main Nav -->
 			<nav class="main_nav">
@@ -75,7 +74,7 @@
 			<!-- Search Panel -->
 			<div class="search_panel">
 				<div class="search_panel_content d-flex flex-row align-items-center justify-content-start">
-					<img src="images/search.png" alt=""/>
+					<img src="image/search.png" alt=""/>
 					<form action="#" class="search_form" id="form1" runat="server">
 						<input type="text" class="search_input" placeholder="Type your search here" required="required"/>
 					</form>
@@ -90,7 +89,7 @@
 
 	<div class="logo_overlay">
 		<div class="logo_overlay_content d-flex flex-column align-items-center justify-content-center">
-			<div class="logo"><a href="#"><img src="images/logo_3.png" alt=""/></a></div>
+			<div class="logo"><a href="#"><img src="image/logo_3.png" alt=""/></a></div>
 		</div>
 	</div>
 
@@ -139,7 +138,7 @@
 	<!-- Home -->
 
 	<div class="home">
-		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/blog.jpg" data-speed="0.8"></div>
+		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="image/blog.jpg" data-speed="0.8"></div>
 		<div class="home_container d-flex flex-column align-items-center justify-content-center">
 			<div class="home_title"><h1>Blog</h1></div>
 		</div>
@@ -200,7 +199,7 @@
 						<!-- Blog Post -->
 						<div class="blog_post">
 							<div class="blog_post_image">
-								<div><img src="images/blog_1.jpg" alt=""></div>
+								<div><img src="image/blog_1.jpg" alt=""/></div>
 								<div class="blog_post_date">
 									<a href="#">
 										<span class="d-flex flex-column align-items-center justify-content-center">
@@ -231,7 +230,7 @@
 						<!-- Blog Post -->
 						<div class="blog_post">
 							<div class="blog_post_image">
-								<div><img src="images/blog_2.jpg" alt=""></div>
+								<div><img src="image/blog_2.jpg" alt=""/></div>
 								<div class="blog_post_date">
 									<a href="#">
 										<span class="d-flex flex-column align-items-center justify-content-center">
@@ -262,7 +261,7 @@
 						<!-- Blog Post -->
 						<div class="blog_post">
 							<div class="blog_post_image">
-								<div><img src="images/blog_3.jpg" alt=""></div>
+								<div><img src="image/blog_3.jpg" alt=""/></div>
 								<div class="blog_post_date">
 									<a href="#">
 										<span class="d-flex flex-column align-items-center justify-content-center">
@@ -314,7 +313,7 @@
 								
 								<!-- Recent Post -->
 								<div class="post_small d-flex flex-row align-items-center justify-content-start">
-									<div class="post_small_image"><a href="#"><img src="images/recent_1.jpg" alt=""></a></div>
+									<div class="post_small_image"><a href="#"><img src="image/recent_1.jpg" alt=""/></a></div>
 									<div class="post_small_content">
 										<div class="post_small_title"><a href="#">Seasonal Offers</a></div>
 										<div class="post_small_date"><a href="#">March 05, 2018</a></div>
@@ -323,7 +322,7 @@
 
 								<!-- Recent Post -->
 								<div class="post_small d-flex flex-row align-items-center justify-content-start">
-									<div class="post_small_image"><a href="#"><img src="images/recent_2.jpg" alt=""></a></div>
+									<div class="post_small_image"><a href="#"><img src="image/recent_2.jpg" alt=""/></a></div>
 									<div class="post_small_content">
 										<div class="post_small_title"><a href="#">Why you need to visit Bali?</a></div>
 										<div class="post_small_date"><a href="#">February 11, 2018</a></div>
@@ -332,7 +331,7 @@
 
 								<!-- Recent Post -->
 								<div class="post_small d-flex flex-row align-items-center justify-content-start">
-									<div class="post_small_image"><a href="#"><img src="images/recent_3.jpg" alt=""></a></div>
+									<div class="post_small_image"><a href="#"><img src="image/recent_3.jpg" alt=""/></a></div>
 									<div class="post_small_content">
 										<div class="post_small_title"><a href="#">A good selection of vines from Italy</a></div>
 										<div class="post_small_date"><a href="#">January 25, 2018</a></div>
@@ -341,7 +340,7 @@
 
 								<!-- Recent Post -->
 								<div class="post_small d-flex flex-row align-items-center justify-content-start">
-									<div class="post_small_image"><a href="#"><img src="images/recent_4.jpg" alt=""></a></div>
+									<div class="post_small_image"><a href="#"><img src="image/recent_4.jpg" alt=""/></a></div>
 									<div class="post_small_content">
 										<div class="post_small_title"><a href="#">Traveling with kids?</a></div>
 										<div class="post_small_date"><a href="#">January 05, 2018</a></div>
@@ -382,7 +381,7 @@
 
 												<!-- Popular Post -->
 												<div class="post_small d-flex flex-row align-items-center justify-content-start">
-													<div class="post_small_image"><a href="#"><img src="images/recent_5.jpg" alt=""></a></div>
+													<div class="post_small_image"><a href="#"><img src="image/recent_5.jpg" alt=""/></a></div>
 													<div class="post_small_content">
 														<div class="post_small_title"><a href="#">Mediteranean Atractions</a></div>
 														<div class="post_small_date"><a href="#">December 03, 2018</a></div>
@@ -391,7 +390,7 @@
 
 												<!-- Popular Post -->
 												<div class="post_small d-flex flex-row align-items-center justify-content-start">
-													<div class="post_small_image"><a href="#"><img src="images/recent_6.jpg" alt=""></a></div>
+													<div class="post_small_image"><a href="#"><img src="image/recent_6.jpg" alt=""/></a></div>
 													<div class="post_small_content">
 														<div class="post_small_title"><a href="#">Choose your stay</a></div>
 														<div class="post_small_date"><a href="#">December 11, 2018</a></div>
@@ -400,7 +399,7 @@
 
 												<!-- Popular Post -->
 												<div class="post_small d-flex flex-row align-items-center justify-content-start">
-													<div class="post_small_image"><a href="#"><img src="images/recent_7.jpg" alt=""></a></div>
+													<div class="post_small_image"><a href="#"><img src="image/recent_7.jpg" alt=""/></a></div>
 													<div class="post_small_content">
 														<div class="post_small_title"><a href="#">Time pass atractions</a></div>
 														<div class="post_small_date"><a href="#">December 05, 2018</a></div>
@@ -419,7 +418,7 @@
 
 												<!-- Popular Post -->
 												<div class="post_small d-flex flex-row align-items-center justify-content-start">
-													<div class="post_small_image"><a href="#"><img src="images/recent_5.jpg" alt=""></a></div>
+													<div class="post_small_image"><a href="#"><img src="image/recent_5.jpg" alt=""/></a></div>
 													<div class="post_small_content">
 														<div class="post_small_title"><a href="#">Mediteranean Atractions</a></div>
 														<div class="post_small_date"><a href="#">December 03, 2018</a></div>
@@ -428,7 +427,7 @@
 
 												<!-- Popular Post -->
 												<div class="post_small d-flex flex-row align-items-center justify-content-start">
-													<div class="post_small_image"><a href="#"><img src="images/recent_6.jpg" alt=""></a></div>
+													<div class="post_small_image"><a href="#"><img src="image/recent_6.jpg" alt=""/></a></div>
 													<div class="post_small_content">
 														<div class="post_small_title"><a href="#">Choose your stay</a></div>
 														<div class="post_small_date"><a href="#">December 11, 2018</a></div>
@@ -437,7 +436,7 @@
 
 												<!-- Popular Post -->
 												<div class="post_small d-flex flex-row align-items-center justify-content-start">
-													<div class="post_small_image"><a href="#"><img src="images/recent_7.jpg" alt=""></a></div>
+													<div class="post_small_image"><a href="#"><img src="image/recent_7.jpg" alt=""/></a></div>
 													<div class="post_small_content">
 														<div class="post_small_title"><a href="#">Time pass atractions</a></div>
 														<div class="post_small_date"><a href="#">December 05, 2018</a></div>
@@ -455,7 +454,7 @@
 						<!-- Sidebar Search -->
 						<div class="sidebar_search">
 							<form action="#" class="sidebar_search_form">
-								<input type="text" class="sidebar_search_input" placeholder="enter keywords" required="required">
+								<input type="text" class="sidebar_search_input" placeholder="enter keywords" required="required"/>
 								<button class="sidebar_search_button">
 									<span>
 										<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 512 512" enable-background="new 0 0 512 512" width="512px" height="512px">
@@ -484,17 +483,17 @@
 									
 									<!-- Slide -->
 									<div class="slide">
-										<div class="background_image" style="background-image:url(images/sidebar.jpg)"></div>
+										<div class="background_image" style="background-image:url(image/sidebar.jpg)"></div>
 									</div>
 
 									<!-- Slide -->
 									<div class="slide">
-										<div class="background_image" style="background-image:url(images/sidebar.jpg)"></div>
+										<div class="background_image" style="background-image:url(image/sidebar.jpg)"></div>
 									</div>
 
 									<!-- Slide -->
 									<div class="slide">
-										<div class="background_image" style="background-image:url(images/sidebar.jpg)"></div>
+										<div class="background_image" style="background-image:url(image/sidebar.jpg)"></div>
 									</div>
 
 								</div>
@@ -510,12 +509,12 @@
 	<!-- Footer -->
 
 	<footer class="footer">
-		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/footer.jpg" data-speed="0.8"></div>
+		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="image/footer.jpg" data-speed="0.8"></div>
 		<div class="container">
 			<div class="row">
 				<div class="col">
 					<div class="footer_logo text-center">
-						<a href="#"><img src="images/logo.png" alt=""/></a>
+						<a href="#"><img src="image/logo.png" alt=""/></a>
 					</div>
 					<div class="footer_content">
 						<div class="row">

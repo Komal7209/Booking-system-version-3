@@ -9,14 +9,14 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 <meta name="description" content="Marimar Hotel template project"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<link rel="stylesheet" type="text/css" href="styles/bootstrap-4.1.2/bootstrap.min.css"/>
-<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.3.4/owl.carousel.css"/>
-<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.3.4/owl.theme.default.css"/>
-<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.3.4/animate.css"/>
-<link href="plugins/jquery-datepicker/jquery-ui.css" rel="stylesheet" type="text/css"/>
-<link rel="stylesheet" type="text/css" href="styles/rooms.css"/>
-<link rel="stylesheet" type="text/css" href="styles/rooms_responsive.css"/>
+<link href="../styles/bootstrap-4.1.2/bootstrap.min.css" rel="stylesheet" type="text/css" />
+<link href="../plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet"type="text/css" />
+<link href="../plugins/OwlCarousel2-2.3.4/owl.theme.default.css" rel="stylesheet" type="text/css"/>
+<link href="../plugins/OwlCarousel2-2.3.4/owl.carousel.css" rel="stylesheet" type="text/css" />
+<link href="../plugins/OwlCarousel2-2.3.4/animate.css" rel="stylesheet" type="text/css" />
+<link href="../plugins/jquery-datepicker/jquery-ui.css" rel="stylesheet" type="text/css" />
+<link href="../styles/rooms_responsive.css" rel="stylesheet"  type="text/css" />
+<link href="../styles/rooms.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
        <div class="super_container">
@@ -27,8 +27,8 @@
 		<div class="header_content d-flex flex-column align-items-center justify-content-lg-end justify-content-center">
 			
 			<!-- Logo -->
-			<div class="logo"><a href="#"><img class="logo_1" src="images/logo.png" alt=""/><img class="logo_2" src="images/logo_2.png" alt=""/><img class="logo_3" src="images/logo_3.png" alt=""/></a></div>
-
+			<div class="logo"><a href="#"><img class="logo_1" src="../image/logo.png" alt=""/><img class="logo_2" src="../image/logo_2.png" alt=""/><img class="logo_3" src="../image/logo_3.png" alt=""/></a></div>
+           
 			<!-- Main Nav -->
 			<nav class="main_nav">
 				<ul class="d-flex flex-row align-items-center justify-content-start">
@@ -74,9 +74,9 @@
 			<!-- Search Panel -->
 			<div class="search_panel">
 				<div class="search_panel_content d-flex flex-row align-items-center justify-content-start">
-					<img src="images/search.png" alt=""/>
+					<img src="image/search.png" alt=""/>
 					<form action="#" class="search_form" id="form1" runat="server">
-						<input type="text" class="search_input" placeholder="Type your search here" required="required">
+						<input type="text" class="search_input" placeholder="Type your search here" required="required"/>
 					</form>
 					<div class="search_close ml-auto d-flex flex-column align-items-center justify-content-center"><div></div></div>
 				</div>
@@ -89,7 +89,7 @@
 
 	<div class="logo_overlay">
 		<div class="logo_overlay_content d-flex flex-column align-items-center justify-content-center">
-			<div class="logo"><a href="#"><img src="images/logo_3.png" alt=""></a></div>
+			<div class="logo"><a href="#"><img src="image/logo_3.png" alt=""/></a></div>
 		</div>
 	</div>
 
@@ -138,7 +138,7 @@
 	<!-- Home -->
 
 	<div class="home">
-		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/rooms.jpg" data-speed="0.8"></div>
+		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="image/rooms.jpg" data-speed="0.8"></div>
 		<div class="home_container d-flex flex-column align-items-center justify-content-center">
 			<div class="home_title"><h1>Rooms</h1></div>
 		</div>
@@ -154,8 +154,8 @@
 						<form action="#" class="booking_form">
 							<div class="booking_form_container d-flex flex-lg-row flex-column align-items-start justify-content-start flex-wrap">
 								<div class="booking_form_inputs d-flex flex-row align-items-start justify-content-between flex-wrap">
-									<div class="booking_dropdown"><input type="text" class="datepicker booking_input booking_input_a booking_in" placeholder="Check in" required="required"></div>
-									<div class="booking_dropdown"><input type="text" class="datepicker booking_input booking_input_a booking_out" placeholder="Check out" required="required"></div>
+									<div class="booking_dropdown"><input type="text" class="datepicker booking_input booking_input_a booking_in" placeholder="Check in" required="required"/></div>
+									<div class="booking_dropdown"><input type="text" class="datepicker booking_input booking_input_a booking_out" placeholder="Check out" required="required"/></div>
 									<div class="custom-select">
 										<select>
 											<option value="0">Adults</option>
@@ -196,7 +196,7 @@
 						
 						<!-- Room -->
 						<div class="card">
-							<img class="card-img-top" src="images/room_1.jpg" alt="Room image description">
+							<img class="card-img-top" src="image/room_1.jpg" alt="Room image description"/>
 							<div class="card-body">
 								<div class="rooms_title"><h2>Luxury Double Suite</h2></div>
 								<div class="rooms_text">
@@ -205,15 +205,15 @@
 								<div class="rooms_list">
 									<ul>
 										<li class="d-flex flex-row align-items-center justify-content-start">
-											<img src="images/check.png" alt="">
+											<img src="../image/check.png" alt=""/>
 											<span>Morbi tempus malesuada erat sed</span>
 										</li>
 										<li class="d-flex flex-row align-items-center justify-content-start">
-											<img src="images/check.png" alt="">
+											<img src="../image/check.png" alt=""/>
 											<span>Tempus malesuada erat sed</span>
 										</li>
 										<li class="d-flex flex-row align-items-center justify-content-start">
-											<img src="images/check.png" alt="">
+											<img src="../image/check.png" alt=""/>
 											<span>Pellentesque vel neque finibus elit</span>
 										</li>
 									</ul>
@@ -225,7 +225,7 @@
 
 						<!-- Room -->
 						<div class="card">
-							<img class="card-img-top" src="images/room_2.jpg" alt="Room image description">
+							<img class="card-img-top" src="../image/room_2.jpg" alt="Room image description"/>
 							<div class="card-body">
 								<div class="rooms_title"><h2>Luxury Double Suite</h2></div>
 								<div class="rooms_text">
@@ -234,15 +234,15 @@
 								<div class="rooms_list">
 									<ul>
 										<li class="d-flex flex-row align-items-center justify-content-start">
-											<img src="images/check.png" alt="">
+											<img src="../image/check.png" alt=""/>
 											<span>Morbi tempus malesuada erat sed</span>
 										</li>
 										<li class="d-flex flex-row align-items-center justify-content-start">
-											<img src="images/check.png" alt="">
+											<img src="../image/check.png" alt=""/>
 											<span>Tempus malesuada erat sed</span>
 										</li>
 										<li class="d-flex flex-row align-items-center justify-content-start">
-											<img src="images/check.png" alt="">
+											<img src="../image/check.png" alt=""/>
 											<span>Pellentesque vel neque finibus elit</span>
 										</li>
 									</ul>
@@ -254,7 +254,7 @@
 
 						<!-- Room -->
 						<div class="card">
-							<img class="card-img-top" src="images/room_3.jpg" alt="Room image description">
+							<img class="card-img-top" src="../image/room_3.jpg" alt="Room image description"/>
 							<div class="card-body">
 								<div class="rooms_title"><h2>Luxury Single Room</h2></div>
 								<div class="rooms_text">
@@ -263,15 +263,15 @@
 								<div class="rooms_list">
 									<ul>
 										<li class="d-flex flex-row align-items-center justify-content-start">
-											<img src="images/check.png" alt="">
+											<img src="../image/check.png" alt=""/>
 											<span>Morbi tempus malesuada erat sed</span>
 										</li>
 										<li class="d-flex flex-row align-items-center justify-content-start">
-											<img src="images/check.png" alt="">
+											<img src="../image/check.png" alt=""/>
 											<span>Tempus malesuada erat sed</span>
 										</li>
 										<li class="d-flex flex-row align-items-center justify-content-start">
-											<img src="images/check.png" alt="">
+											<img src="../image/check.png" alt=""/>
 											<span>Pellentesque vel neque finibus elit</span>
 										</li>
 									</ul>
@@ -283,7 +283,7 @@
 
 						<!-- Room -->
 						<div class="card card-special">
-							<img class="card-img-top" src="images/room_4.jpg" alt="Room image description">
+							<img class="card-img-top" src="../image/room_4.jpg" alt="Room image description"/>
 							<div class="card-special-panel">special offer</div>
 							<div class="card-body">
 								<div class="rooms_title"><h2>Budget Suite</h2></div>
@@ -293,15 +293,15 @@
 								<div class="rooms_list">
 									<ul>
 										<li class="d-flex flex-row align-items-center justify-content-start">
-											<img src="images/check.png" alt="">
+											<img src="../image/check.png" alt=""/>
 											<span>Morbi tempus malesuada erat sed</span>
 										</li>
 										<li class="d-flex flex-row align-items-center justify-content-start">
-											<img src="images/check.png" alt="">
+											<img src="../image/check.png" alt=""/>
 											<span>Tempus malesuada erat sed</span>
 										</li>
 										<li class="d-flex flex-row align-items-center justify-content-start">
-											<img src="images/check.png" alt="">
+											<img src="../image/check.png" alt=""/>
 											<span>Pellentesque vel neque finibus elit</span>
 										</li>
 									</ul>
@@ -324,12 +324,12 @@
 	<!-- Footer -->
 
 	<footer class="footer">
-		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/footer.jpg" data-speed="0.8"></div>
+		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="image/footer.jpg" data-speed="0.8"></div>
 		<div class="container">
 			<div class="row">
 				<div class="col">
 					<div class="footer_logo text-center">
-						<a href="#"><img src="images/logo.png" alt=""/></a>
+						<a href="#"><img src="../image/logo.png" alt=""/></a>
 					</div>
 					<div class="footer_content">
 						<div class="row">
@@ -368,19 +368,19 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	</footer>
 </div>
 
-<script src="js/jquery-3.3.1.min.js"></script>
-<script src="styles/bootstrap-4.1.2/popper.js"></script>
-<script src="styles/bootstrap-4.1.2/bootstrap.min.js"></script>
-<script src="plugins/greensock/TweenMax.min.js"></script>
-<script src="plugins/greensock/TimelineMax.min.js"></script>
-<script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
-<script src="plugins/greensock/animation.gsap.min.js"></script>
-<script src="plugins/greensock/ScrollToPlugin.min.js"></script>
-<script src="plugins/OwlCarousel2-2.3.4/owl.carousel.js"></script>
-<script src="plugins/easing/easing.js"></script>
-<script src="plugins/progressbar/progressbar.min.js"></script>
-<script src="plugins/parallax-js-master/parallax.min.js"></script>
-<script src="plugins/jquery-datepicker/jquery-ui.js"></script>
-<script src="js/rooms.js"></script>
+<script src="../js/jquery-3.3.1.min.js"></script>
+<script src="../styles/bootstrap-4.1.2/popper.js"></script>
+<script src="../styles/bootstrap-4.1.2/bootstrap.min.js"></script>
+<script src="../plugins/greensock/TweenMax.min.js"></script>
+<script src="../plugins/greensock/TimelineMax.min.js"></script>
+<script src="../plugins/scrollmagic/ScrollMagic.min.js"></script>
+<script src="../plugins/greensock/animation.gsap.min.js"></script>
+<script src="../plugins/greensock/ScrollToPlugin.min.js"></script>
+<script src="../plugins/OwlCarousel2-2.3.4/owl.carousel.js"></script>
+<script src="../plugins/easing/easing.js"></script>
+<script src="../plugins/progressbar/progressbar.min.js"></script>
+<script src="../plugins/parallax-js-master/parallax.min.js"></script>
+<script src="../plugins/jquery-datepicker/jquery-ui.js"></script>
+<script src="../js/rooms.js"></script>
 </body>
 </html>

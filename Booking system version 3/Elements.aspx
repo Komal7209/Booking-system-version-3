@@ -27,7 +27,7 @@
 		<div class="header_content d-flex flex-column align-items-center justify-content-lg-end justify-content-center">
 			
 			<!-- Logo -->
-			<div class="logo"><a href="#"><img class="logo_1" src="images/logo.png" alt=""/><img class="logo_2" src="images/logo_2.png" alt=""/><img class="logo_3" src="images/logo_3.png" alt=""/></a></div>
+			<div class="logo"><a href="#"><img class="logo_1" src="image/logo.png" alt=""/><img class="logo_2" src="image/logo_2.png" alt=""/><img class="logo_3" src="image/logo_3.png" alt=""/></a></div>
 
 			<!-- Main Nav -->
 			<nav class="main_nav">
@@ -74,7 +74,7 @@
 			<!-- Search Panel -->
 			<div class="search_panel">
 				<div class="search_panel_content d-flex flex-row align-items-center justify-content-start">
-					<img src="images/search.png" alt=""/>
+					<img src="image/search.png" alt=""/>
 					<form action="#" class="search_form" id="form1" runat="server">
 						<input type="text" class="search_input" placeholder="Type your search here" required="required"/>
 					</form>
@@ -89,7 +89,7 @@
 
 	<div class="logo_overlay">
 		<div class="logo_overlay_content d-flex flex-column align-items-center justify-content-center">
-			<div class="logo"><a href="#"><img src="images/logo_3.png" alt=""/></a></div>
+			<div class="logo"><a href="#"><img src="image/logo_3.png" alt=""/></a></div>
 		</div>
 	</div>
 
@@ -138,7 +138,7 @@
 	<!-- Home -->
 
 	<div class="home">
-		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/elements.jpg" data-speed="0.8"></div>
+		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="image/elements.jpg" data-speed="0.8"></div>
 		<div class="home_container d-flex flex-column align-items-center justify-content-center">
 			<div class="home_title"><h1>Elements</h1></div>
 		</div>
@@ -377,7 +377,7 @@
 							<!-- Icon Box -->
 							<div class="col-lg-4">
 								<div class="icon_box text-center">
-									<div class="icon_box_icon"><img src="images/icon_1.svg" alt=""/></div>
+									<div class="icon_box_icon"><img src="image/icon_1.svg" alt=""/></div>
 									<div class="icon_box_title"><h3>Outdoor Pool</h3></div>
 									<div class="icon_box_text">
 										<p>Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scelerisque at. Quisque eget sem non ligula consectetur ultrices in quis augue.</p>
@@ -389,7 +389,7 @@
 							<!-- Icon Box -->
 							<div class="col-lg-4">
 								<div class="icon_box text-center">
-									<div class="icon_box_icon"><img src="images/icon_2.svg" alt=""/></div>
+									<div class="icon_box_icon"><img src="image/icon_2.svg" alt=""/></div>
 									<div class="icon_box_title"><h3>Indoor Pool</h3></div>
 									<div class="icon_box_text">
 										<p>Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scelerisque at. Quisque eget sem non ligula consectetur ultrices in quis augue.</p>
@@ -401,7 +401,7 @@
 							<!-- Icon Box -->
 							<div class="col-lg-4">
 								<div class="icon_box text-center">
-									<div class="icon_box_icon"><img src="images/icon_3.svg" alt=""/></div>
+									<div class="icon_box_icon"><img src="image/icon_3.svg" alt=""/></div>
 									<div class="icon_box_title"><h3>Spa Zone</h3></div>
 									<div class="icon_box_text">
 										<p>Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scelerisque at. Quisque eget sem non ligula consectetur ultrices in quis augue.</p>
@@ -420,12 +420,12 @@
 	<!-- Footer -->
 
 	<footer class="footer">
-		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/footer.jpg" data-speed="0.8"></div>
+		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="image/footer.jpg" data-speed="0.8"></div>
 		<div class="container">
 			<div class="row">
 				<div class="col">
 					<div class="footer_logo text-center">
-						<a href="#"><img src="images/logo.png" alt=""/></a>
+						<a href="#"><img src="image/logo.png" alt=""/></a>
 					</div>
 					<div class="footer_content">
 						<div class="row">
