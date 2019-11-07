@@ -34,7 +34,7 @@
 				<ul class="d-flex flex-row align-items-center justify-content-start">
 					<li class="active"><a href="Index.aspx">Home</a></li>
 					<li><a href="About.aspx">About us</a></li>
-					<li><a href="Rooms.aspx">Venue</a></li>
+						<li><a href="BookingModule/Rooms.aspx">Venue</a></li>    <%--given in this way as rooms is in another folder--%>
 					<li><a href="Blog.aspx">News</a></li>
 					<li><a href="Contact.aspx">Contact</a></li>
 				</ul>
@@ -114,7 +114,7 @@
 				<ul>
 					<li><a href="Index.aspx">Home</a></li>
 					<li><a href="About.aspx">About us</a></li>
-					<li><a href="Rooms.aspx">Venue</a></li>
+					<li><a href="BookingModule/Rooms.aspx">Venue</a></li>
 					<li><a href="Blog.aspx">News</a></li>
 					<li><a href="Contact.aspx">Contact</a></li>
 				</ul>
