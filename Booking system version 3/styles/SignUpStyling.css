@@ -1,11 +1,33 @@
 ﻿body {
 }
-
+#container {
+margin-left:5%;
+margin-right:5%;
+margin-bottom:5%;
+margin-top:5%;
+}
 #left {
     background-color: aliceblue;
-
+float: left;
+width:50%;
+    height: 596px;
 }
 
 #right {
     background-color: antiquewhite;
+    border-style:inset;
+    border-width: 2px;
+    float:right;
+    width:50%;
+    /*text-align:center;*/
 }
+#fb {
+    text-align: center;
+}
+#fbbutton {
+
+}
+#login {
+    float:right;
+}
+
