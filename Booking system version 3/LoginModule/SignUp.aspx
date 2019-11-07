@@ -34,16 +34,19 @@ with our experts
 deals from Weddingz.in
 
 Get tips & ideas on the
-A-Z of wedding planning<br />
-&nbsp;And much more!
+A-Z of wedding planning
+<br />
+And much more!
 
         </div>
 
 
 
         <div id="right">
-<div id="fb"> <asp:Button ID="Button1" runat="server" text="SIGN UP WITH FACEBOOK" image=""/>          
-        
+<div id="fb"> 
+    <div id="fbbutton">
+    <asp:label runat="server" text="SIGN UP WITH FACEBOOK" image="" OnClick="Button1_Click"/>          
+      </div>  
     <br />
  We will not post anything without your permission
 

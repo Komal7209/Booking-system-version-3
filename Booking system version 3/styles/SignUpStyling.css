@@ -25,7 +25,9 @@ width:50%;
     text-align: center;
 }
 #fbbutton {
-
+    margin-left:20%;
+    margin-right:30%;
+    background-color: #3b5998;
 }
 #login {
     float:right;
