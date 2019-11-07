@@ -20,6 +20,8 @@
 </head>
 <body>
     
+        <form id="form1" runat="server">
+    
         <div>
             <div class="super_container">
 	
@@ -90,9 +92,7 @@
 			<div class="search_panel">
 				<div class="search_panel_content d-flex flex-row align-items-center justify-content-start">
 					<img src="image/search.png" alt=""/>
-					<form action="#" class="search_form" id="form1" runat="server">
 						<input type="text" class="search_input" placeholder="Type your search here" required="required"/>
-					</form>
 					<div class="search_close ml-auto d-flex flex-column align-items-center justify-content-center"><div></div></div>
 				</div>
 			</div>
@@ -129,15 +129,19 @@
 				<ul class="d-flex flex-row align-items-center justify-content-start">
 					<li><a href="index.html">Home</a></li>
 					
-<li><a href="about.html">Resorts</a></li>
-<li><a href="about.html">Banquets</a></li>
-<li><a href="about.html">Palace</a></li>
-
-						
+				</ul>
+                <p>
+                    <asp:DropDownList ID="DropDownList1" runat="server">
+                        <asp:ListItem>Venue</asp:ListItem>
+                        <asp:ListItem>Resort</asp:ListItem>
+                        <asp:ListItem>Banquet</asp:ListItem>
+                        <asp:ListItem>Hotel</asp:ListItem>
+                    </asp:DropDownList>
+                </p>
+                <ul class="d-flex flex-row align-items-center justify-content-start">
 					<li><a href="blog.html">News</a></li>
-<li><a href="about.html">About us</a></li>
-
-					<li class="active"><a href="contact.html">Contact</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li class="active"><a href="contact.html">Contact</a></li>
 				</ul>
 			</nav>
 			<div class="button menu_button"><a href="#">book now</a></div>
@@ -464,5 +468,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 <script src="plugins/parallax-js-master/parallax.min.js"></script>
 <script src="plugins/jquery-datepicker/jquery-ui.js"></script>
 <script src="js/about.js"></script>
+        </form>
 </body>
 </html>
