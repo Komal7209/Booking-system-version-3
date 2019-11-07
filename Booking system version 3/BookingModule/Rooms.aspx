@@ -34,9 +34,9 @@
 				<ul class="d-flex flex-row align-items-center justify-content-start">
 					<li ><a href="Index.aspx">Home</a></li>
 					<li><a href="About.aspx">About us</a></li>
-					<li class="active"><a href="Rooms.aspx">Rooms</a></li>
+					<li class="active"><a href="Rooms.aspx">Venue</a></li>
 					<li><a href="Blog.aspx">News</a></li>
-					<li><a href="Contact.aspx">Contact</a></li>
+					<li ><a href="Contact.aspx">Contact</a></li>
 				</ul>
 			</nav>
 
@@ -127,7 +127,7 @@
 					<li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
 					<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
 					<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-					<li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+					<%--<li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>--%>
 					<%--<li><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>--%>
 				</ul>
 			</div>

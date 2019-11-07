@@ -18,10 +18,7 @@
 <link rel="stylesheet" type="text/css" href="styles/about.css"/>
 <link rel="stylesheet" type="text/css" href="styles/about_responsive.css"/>
 </head>
-<body>
-    
-        <form id="form1" runat="server">
-    
+<body>    
         <div>
             <div class="super_container">
 	
@@ -40,16 +37,25 @@
 <img class="logo_3" src="image/logo_3.png" alt=" "/></a></div>
 
 			<!-- Main Nav -->
-			<nav class="main_nav" style="
+			<%--<nav class="main_nav" style="
     margin-left: -143px;
 ">
 				<ul class="d-flex flex-row align-items-center justify-content-start">
 					<li><a href="Index.aspx">Home</a></li>
 					<li class="active"><a href="About.aspx">About us</a></li>
-                    <li><a href="Rooms.aspx">Venue</a></li>
+                    <li><a href="Rooms.aspx">Venue</a></li>--%>
 <%--<li><a href="about.html">Resorts</a></li>
 <li><a href="about.html">Banquets</a></li>
 <li><a href="about.html">Palace</a></li>--%>					
+				<%--	<li><a href="Blog.aspx">News</a></li>
+					<li ><a href="Contact.aspx">Contact</a></li>
+				</ul>
+			</nav>--%>
+            <nav class="main_nav">
+				<ul class="d-flex flex-row align-items-center justify-content-start">
+					<li ><a href="Index.aspx">Home</a></li>
+					<li class="active"><a href="About.aspx">About us</a></li>
+					<li ><a href="Rooms.aspx">Venue</a></li>
 					<li><a href="Blog.aspx">News</a></li>
 					<li ><a href="Contact.aspx">Contact</a></li>
 				</ul>
@@ -122,13 +128,22 @@
 		<div class="menu_container d-flex flex-column align-items-center justify-content-center">
 
 			<!-- Menu Navigation -->
-			<nav class="menu_nav text-center">
+			<%--<nav class="menu_nav text-center">
 				<ul class="d-flex flex-row align-items-center justify-content-start">
 				<li><a href="Index.aspx">Home</a></li>
 					<li class="active"><a href="About.aspx">About us</a></li>
                     <li><a href="Rooms.aspx">Venue</a></li>					
 					<li><a href="Blog.aspx">News</a></li>
 					<li ><a href="Contact.aspx">Contact</a></li>
+				</ul>
+			</nav>--%>
+            <nav class="menu_nav text-center">
+				<ul>
+					<li><a href="Index.aspx">Home</a></li>
+					<li><a href="About.aspx">About us</a></li>
+					<li><a href="Rooms.aspx">Venue</a></li>
+					<li><a href="Blog.aspx">News</a></li>
+					<li><a href="Contact.aspx">Contact</a></li>
 				</ul>
 			</nav>
 			<div class="button menu_button"><a href="#">book now</a></div>
@@ -139,7 +154,7 @@
 					<li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
 					<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
 					<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-					<li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+					<%--<li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>--%>
 					<%--<li><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>--%>
 				</ul>
 			</div>
@@ -455,6 +470,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 <script src="plugins/parallax-js-master/parallax.min.js"></script>
 <script src="plugins/jquery-datepicker/jquery-ui.js"></script>
 <script src="js/about.js"></script>
-        </form>
+   </div>     
 </body>
 </html>

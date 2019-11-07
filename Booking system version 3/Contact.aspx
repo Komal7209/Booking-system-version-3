@@ -38,12 +38,20 @@
 <img class="logo_3" src="image/logo_3.png" alt=""/></a></div>
 
 			<!-- Main Nav -->
-			<nav class="main_nav" style="
-    margin-left: -143px;
-">
+            <nav class="main_nav">
+				<ul class="d-flex flex-row align-items-center justify-content-start">
+					<li ><a href="Index.aspx">Home</a></li>
+					<li><a href="About.aspx">About us</a></li>
+					<li><a href="Rooms.aspx">Venue</a></li>
+					<li><a href="Blog.aspx">News</a></li>
+					<li class="active"><a href="Contact.aspx">Contact</a></li>
+				</ul>
+			</nav>
+			<%--<nav class="main_nav" style="margin-left: -143px;">
+
 				<ul class="d-flex flex-row align-items-center justify-content-start">
 					<li><a href="Index.aspx">Home</a></li>
-					<li><a href="Rooms.aspx">Venue</a></li>
+					<li><a href="Rooms.aspx">Venue</a></li>--%>
                     <%--<asp:DropDownList ID="DropDownList1" runat="server">
                         <asp:ListItem>Resorts</asp:ListItem>
                         <asp:ListItem>Banquets</asp:ListItem>
@@ -52,12 +60,11 @@
 <%--<li><a href="rooms.html">Resorts</a></li>
 <li><a href="rooms.html">Banquets</a></li>
 <li><a href="rooms.html">Palace</a></li>--%>	
-					<li><a href="blog.aspx">News</a></li>
+					<%--<li><a href="blog.aspx">News</a></li>
 <li><a href="About.aspx">About us</a></li>
-
 					<li class="active"><a href="Contact.aspx">Contact</a></li>
 				</ul>
-			</nav>
+			</nav>--%>
 
 			<!-- Social -->
 			<div class="social header_social">
@@ -128,16 +135,25 @@
 		<div class="menu_container d-flex flex-column align-items-center justify-content-center">
 
 			<!-- Menu Navigation -->
-			<nav class="menu_nav text-center">
+			<%--<nav class="menu_nav text-center">
 				<ul class="d-flex flex-row align-items-center justify-content-start">
-					<li><a href="Index.aspx">Home</a></li>
+					<li><a href="Index.aspx">Home</a></li>--%>
 <%--<li><a href="about.html">Resorts</a></li>
 <li><a href="about.html">Banquets</a></li>
 <li><a href="about.html">Palace</a></li>--%>
-                    <li><a href="Rooms.aspx">Venue</a></li>
+                  <%--  <li><a href="Rooms.aspx">Venue</a></li>
 					<li><a href="Blog.aspx">News</a></li>
 <li><a href="about.html">About us</a></li>
 					<li class="active"><a href="Contact.aspx">Contact</a></li>
+				</ul>
+			</nav>--%>
+            <nav class="menu_nav text-center">
+				<ul>
+					<li><a href="Index.aspx">Home</a></li>
+					<li><a href="About.aspx">About us</a></li>
+					<li><a href="Rooms.aspx">Venue</a></li>
+					<li><a href="Blog.aspx">News</a></li>
+					<li><a href="Contact.aspx">Contact</a></li>
 				</ul>
 			</nav>
 
@@ -149,7 +165,7 @@
 					<li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
 					<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
 					<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-					<li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+					<%--<li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>--%>
 					<%--<li><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>--%>
 				</ul>
 			</div>
