@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>Marimar</title>
+    <title>Home</title>
 <meta charset="utf-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 <meta name="description" content="Marimar Hotel template project"/>
@@ -32,11 +32,11 @@
 			<!-- Main Nav -->
 			<nav class="main_nav">
 				<ul class="d-flex flex-row align-items-center justify-content-start">
-					<li class="active"><a href="index.html">Home</a></li>
-					<li><a href="about.html">About us</a></li>
-					<li><a href="rooms.html">Rooms</a></li>
-					<li><a href="blog.html">News</a></li>
-					<li><a href="contact.html">Contact</a></li>
+					<li class="active"><a href="Index.aspx">Home</a></li>
+					<li><a href="About.aspx">About us</a></li>
+					<li><a href="Rooms.aspx">Rooms</a></li>
+					<li><a href="Blog.aspx">News</a></li>
+					<li><a href="Contact.aspx">Contact</a></li>
 				</ul>
 			</nav>
 
@@ -47,7 +47,7 @@
 					<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
 					<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
 					<li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
-					<li><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
+					<%--<li><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>--%>
 				</ul>
 			</div>
 
@@ -112,11 +112,11 @@
 			<!-- Menu Navigation -->
 			<nav class="menu_nav text-center">
 				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="about.html">About us</a></li>
-					<li><a href="rooms.html">Rooms</a></li>
-					<li><a href="blog.html">News</a></li>
-					<li><a href="contact.html">Contact</a></li>
+					<li><a href="Index.aspx">Home</a></li>
+					<li><a href="About.aspx">About us</a></li>
+					<li><a href="Rooms.aspx">Venue</a></li>
+					<li><a href="Blog.aspx">News</a></li>
+					<li><a href="Contact.aspx">Contact</a></li>
 				</ul>
 			</nav>
 			<div class="button menu_button"><a href="#">book now</a></div>
@@ -128,7 +128,7 @@
 					<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
 					<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
 					<li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
-					<li><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
+					<%--<li><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>--%>
 				</ul>
 			</div>
 
@@ -153,29 +153,29 @@
 			<div class="row">
 				<div class="col">
 					<div class="booking_container d-flex flex-row align-items-end justify-content-start">
-						<form action="#" class="booking_form" id="form2" runat="server">
+						<form action="#" class="booking_form" id="form2">
 							<div class="booking_form_container d-flex flex-lg-row flex-column align-items-start justify-content-start flex-wrap">
 								<div class="booking_form_inputs d-flex flex-row align-items-start justify-content-between flex-wrap">
 									<div class="booking_dropdown"><input type="text" class="datepicker booking_input booking_input_a booking_in" placeholder="Check in" required="required"/></div>
 									<div class="booking_dropdown"><input type="text" class="datepicker booking_input booking_input_a booking_out" placeholder="Check out" required="required"/></div>
 									<div class="custom-select">
 										<select>
-											<option value="0">Adults</option>
-											<option value="1">1</option>
-											<option value="2">2</option>
-											<option value="3">3</option>
-											<option value="4">4</option>
-											<option value="5">5</option>
+											<option value="0">Min Gathering</option>
+											<option value="1">10</option>
+											<option value="2">20</option>
+											<option value="3">30</option>
+											<option value="4">40</option>
+											<option value="5">50</option>
 										</select>
 									</div>
 									<div class="custom-select">
 										<select>
-											<option value="0">Children</option>
-											<option value="1">1</option>
-											<option value="2">2</option>
-											<option value="3">3</option>
-											<option value="4">4</option>
-											<option value="5">5</option>
+											<option value="0">Max Gathering</option>
+											<option value="1">100</option>
+											<option value="2">200</option>
+											<option value="3">350-450</option>
+											<option value="4">500-900</option>
+											<option value="5">1000</option>
 										</select>
 									</div>
 								</div>

@@ -151,29 +151,29 @@
 			<div class="row">
 				<div class="col">
 					<div class="booking_container d-flex flex-row align-items-end justify-content-start">
-						<form action="#" class="booking_form">
+						<form action="#" class="booking_form" id="form2">
 							<div class="booking_form_container d-flex flex-lg-row flex-column align-items-start justify-content-start flex-wrap">
 								<div class="booking_form_inputs d-flex flex-row align-items-start justify-content-between flex-wrap">
 									<div class="booking_dropdown"><input type="text" class="datepicker booking_input booking_input_a booking_in" placeholder="Check in" required="required"/></div>
 									<div class="booking_dropdown"><input type="text" class="datepicker booking_input booking_input_a booking_out" placeholder="Check out" required="required"/></div>
 									<div class="custom-select">
 										<select>
-											<option value="0">Adults</option>
-											<option value="1">1</option>
-											<option value="2">2</option>
-											<option value="3">3</option>
-											<option value="4">4</option>
-											<option value="5">5</option>
+											<option value="0">Min Gathering</option>
+											<option value="1">10</option>
+											<option value="2">20</option>
+											<option value="3">30</option>
+											<option value="4">40</option>
+											<option value="5">50</option>
 										</select>
 									</div>
 									<div class="custom-select">
 										<select>
-											<option value="0">Children</option>
-											<option value="1">1</option>
-											<option value="2">2</option>
-											<option value="3">3</option>
-											<option value="4">4</option>
-											<option value="5">5</option>
+											<option value="0">Max Gathering</option>
+											<option value="1">100</option>
+											<option value="2">200</option>
+											<option value="3">350-450</option>
+											<option value="4">500-900</option>
+											<option value="5">1000</option>
 										</select>
 									</div>
 								</div>

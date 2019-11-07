@@ -44,17 +44,14 @@
     margin-left: -143px;
 ">
 				<ul class="d-flex flex-row align-items-center justify-content-start">
-					<li><a href="index.html">Home</a></li>
-					
-<li><a href="about.html">Resorts</a></li>
+					<li><a href="Index.aspx">Home</a></li>
+					<li class="active"><a href="About.aspx">About us</a></li>
+                    <li><a href="Rooms.aspx">Venue</a></li>
+<%--<li><a href="about.html">Resorts</a></li>
 <li><a href="about.html">Banquets</a></li>
-<li><a href="about.html">Palace</a></li>
-
-						
-					<li><a href="blog.html">News</a></li>
-<li><a href="about.html">About us</a></li>
-
-					<li class="active"><a href="contact.html">Contact</a></li>
+<li><a href="about.html">Palace</a></li>--%>					
+					<li><a href="Blog.aspx">News</a></li>
+					<li ><a href="Contact.aspx">Contact</a></li>
 				</ul>
 			</nav>
 
@@ -127,21 +124,11 @@
 			<!-- Menu Navigation -->
 			<nav class="menu_nav text-center">
 				<ul class="d-flex flex-row align-items-center justify-content-start">
-					<li><a href="index.html">Home</a></li>
-					
-				</ul>
-                <p>
-                    <asp:DropDownList ID="DropDownList1" runat="server">
-                        <asp:ListItem>Venue</asp:ListItem>
-                        <asp:ListItem>Resort</asp:ListItem>
-                        <asp:ListItem>Banquet</asp:ListItem>
-                        <asp:ListItem>Hotel</asp:ListItem>
-                    </asp:DropDownList>
-                </p>
-                <ul class="d-flex flex-row align-items-center justify-content-start">
-					<li><a href="blog.html">News</a></li>
-                    <li><a href="about.html">About us</a></li>
-                    <li class="active"><a href="contact.html">Contact</a></li>
+				<li><a href="Index.aspx">Home</a></li>
+					<li class="active"><a href="About.aspx">About us</a></li>
+                    <li><a href="Rooms.aspx">Venue</a></li>					
+					<li><a href="Blog.aspx">News</a></li>
+					<li ><a href="Contact.aspx">Contact</a></li>
 				</ul>
 			</nav>
 			<div class="button menu_button"><a href="#">book now</a></div>
@@ -153,7 +140,7 @@
 					<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
 					<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
 					<li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
-					<li><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
+					<%--<li><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>--%>
 				</ul>
 			</div>
 
@@ -176,41 +163,41 @@
 			<div class="row">
 				<div class="col">
 					<div class="booking_container d-flex flex-row align-items-end justify-content-start">
-						<div class="booking_form_inputs d-flex flex-row align-items-start justify-content-between flex-wrap">
-									<div class="booking_dropdown">
-<input type="text" class="datepicker booking_input booking_input_a booking_in hasDatepicker" placeholder="Booking From Date" 
-required="required" id="dp1572460016452"/></div>
-									<div class="booking_dropdown"><input type="text" class="datepicker booking_input booking_input_a booking_out hasDatepicker" placeholder="Check out" required="required" id="dp1572723645570"/></div>
+						<form action="#" class="booking_form" id="form2">
+							<div class="booking_form_container d-flex flex-lg-row flex-column align-items-start justify-content-start flex-wrap">
+								<div class="booking_form_inputs d-flex flex-row align-items-start justify-content-between flex-wrap">
+									<div class="booking_dropdown"><input type="text" class="datepicker booking_input booking_input_a booking_in" placeholder="Check in" required="required"/></div>
+									<div class="booking_dropdown"><input type="text" class="datepicker booking_input booking_input_a booking_out" placeholder="Check out" required="required"/></div>
 									<div class="custom-select">
 										<select>
-											<option value="0">Adults</option>
-											<option value="1">1</option>
-											<option value="2">2</option>
-											<option value="3">3</option>
-											<option value="4">4</option>
-											<option value="5">5</option>
+											<option value="0">Min Gathering</option>
+											<option value="1">10</option>
+											<option value="2">20</option>
+											<option value="3">30</option>
+											<option value="4">40</option>
+											<option value="5">50</option>
 										</select>
-									<div class="select-selected">Min - Gathering</div><div class="select-items select-hide"><div>1</div><div>2</div><div>3</div><div>4</div><div>5</div></div></div>
+									</div>
 									<div class="custom-select">
 										<select>
-											<option value="0">Children</option>
-											<option value="1">1</option>
-											<option value="2">2</option>
-											<option value="3">3</option>
-											<option value="4">4</option>
-											<option value="5">5</option>
+											<option value="0">Max Gathering</option>
+											<option value="1">100</option>
+											<option value="2">200</option>
+											<option value="3">350-450</option>
+											<option value="4">500-900</option>
+											<option value="5">1000</option>
 										</select>
-									<div class="select-selected">Max - Gathering</div><div class="select-items select-hide"><div>1</div><div>2</div><div>3</div><div>4</div><div>5</div></div></div>
+									</div>
 								</div>
 								<button class="booking_form_button ml-lg-auto">book now</button>
 							</div>
-					
+						</form>
 					</div>
 				</div>
-    
 			</div>
 		</div>
-    </div>
+	</div>
+
 
 
 	<!-- Intro -->
