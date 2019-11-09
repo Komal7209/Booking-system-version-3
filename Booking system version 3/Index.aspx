@@ -196,14 +196,16 @@
 				<div class="col">
 					<div class="section_title text-center">
 						<div>Welcome</div>
-						<h1>Amazing Hotel in front of the Sea</h1>
+						<h1>Perfect venues for every choice.</h1>
 					</div>
 				</div>
 			</div>
 			<div class="row intro_row">
 				<div class="col-xl-8 col-lg-10 offset-xl-2 offset-lg-1">
 					<div class="intro_text text-center">
-						<p>Maecenas sollicitudin tincidunt maximus. Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scelerisque at. Quisque eget sem non ligula consectetur ultrices in quis augue. Donec imperd iet leo eget tortor dictum, eget varius eros sagittis. Curabitur tempor dignissim massa ut faucibus sollicitudin tinci dunt maximus. Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scele risque at. Quisque eget sem non ligula consectetur ultrices in quis augue. Donec imperdiet leo eget tortor dictum, eget varius eros sagittis. Curabitur tempor dignissim massa ut faucibus.</p>
+						<p>Our team ensures that all the services are delivered as committed to ensure a hassle-free experience for you.
+No need to run around for your wedding services - Book our trusted vendors under one roof.
+We guarantee our prices for venue and non-venue services</p>
 					</div>
 				</div>
 			</div>
@@ -309,28 +311,28 @@
 					<div class="rooms_right_content">
 						<div class="section_title">
 							<div>Rooms</div>
-							<h1>Luxury Double Suite</h1>
+							<h1>De Grandeur Hotel And Banquets</h1>
 						</div>
 						<div class="rooms_text">
-							<p>Maecenas sollicitudin tincidunt maximus. Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scelerisque at. Quisque eget sem non ligula consectetur ultrices in quis augue. Donec imperd iet leo eget tortor dictum, eget varius eros sagittis. Curabitur tempor dignissim massa ut faucibus sollicitudin tinci dunt maximus. Morbi tempus malesuada erat sed pellentesque.</p>
+							<p>De Grandeur Hotel and Banquets is an ideal venue hosting your small functions like birthdays, anniversaries, pre-wedding functions, weddings and reception ceremonies. Treat your guests with a royal feast of multi-cuisine delicacies to choose from in both vegetarian and non-vegetarian food. De Grandeur Hotel and Banquets allows you to get your own caterer from outside to serve your favorite cuisines to your guests. The decor team takes care of the decoration for your big day.</p>
 						</div>
 						<div class="rooms_list">
 							<ul>
 								<li class="d-flex flex-row align-items-center justify-content-start">
 									<img src="image/check.png" alt=""/>
-									<span>Morbi tempus malesuada erat sed</span>
+									<span>Multiple spaces for different functions</span>
 								</li>
 								<li class="d-flex flex-row align-items-center justify-content-start">
 									<img src="image/check.png" alt=""/>
-									<span>Tempus malesuada erat sed</span>
+									<span>In-house decorators and caterers take care of everything</span>
 								</li>
 								<li class="d-flex flex-row align-items-center justify-content-start">
 									<img src="image/check.png" alt=""/>
-									<span>Pellentesque vel neque finibus elit</span>
+									<span>Open catering</span>
 								</li>
 							</ul>
 						</div>
-						<div class="rooms_price">$129/<span>Night</span></div>
+						<div class="rooms_price">₹1000/<span>Per Plate</span></div>
 						<div class="button rooms_button"><a href="#">book now</a></div>
 					</div>
 				</div>
@@ -350,28 +352,29 @@
 					<div class="rooms_left_content">
 						<div class="section_title">
 							<div>Rooms</div>
-							<h1>Luxury Single Room</h1>
+							<h1>Holiday Inn</h1>
 						</div>
 						<div class="rooms_text">
-							<p>Maecenas sollicitudin tincidunt maximus. Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scelerisque at. Quisque eget sem non ligula consectetur ultrices in quis augue. Donec imperd iet leo eget tortor dictum, eget varius eros sagittis. Curabitur tempor dignissim massa ut faucibus sollicitudin tinci dunt maximus. Morbi tempus malesuada erat sed pellentesque.</p>
+							<p>Holiday Inn is a lavish venue to host your pre-wedding, wedding, and reception ceremony. Holiday Inn Banquet Hall serves flavorsome delicacies to choose from in both vegetarian and non-vegetarian food to their guests. 
+Holiday Inn gives you the freedom to get your own decorator from outside to decorate the venue as per your requirements. The lavish décor of the venue gives a special touch to your big day. It has luxurious rooms for your invitees which gives them a comfortable stay.</p>
 						</div>
 						<div class="rooms_list">
 							<ul>
 								<li class="d-flex flex-row align-items-center justify-content-start">
 									<img src="image/check.png" alt=""/>
-									<span>Morbi tempus malesuada erat sed</span>
+									<span>Poolside perfect for fun cocktail parties</span>
 								</li>
 								<li class="d-flex flex-row align-items-center justify-content-start">
 									<img src="image/check.png" alt=""/>
-									<span>Tempus malesuada erat sed</span>
+									<span>Sprawling lawn for outdoor events</span>
 								</li>
 								<li class="d-flex flex-row align-items-center justify-content-start">
 									<img src="image/check.png" alt=""/>
-									<span>Pellentesque vel neque finibus elit</span>
+									<span>In-house decorators and caterers take care of everything</span>
 								</li>
 							</ul>
 						</div>
-						<div class="rooms_price">$89/<span>Night</span></div>
+						<div class="rooms_price">₹800/<span>Per Plate</span></div>
 						<div class="button rooms_button"><a href="#">book now</a></div>
 					</div>
 				</div>
@@ -415,20 +418,20 @@
 					<div class="col-lg-5">
 						<div class="section_title">
 							<div>Hotel</div>
-							<h1>Discover Marimar Hotel</h1>
+							<h1>Discover EViento</h1>
 						</div>
 					</div>
 				</div>
 				<div class="row discover_row">
 					<div class="col-lg-5">
 						<div class="discover_highlight">
-							<p>Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scelerisque at. Quisque eget sem non ligula consectetur.</p>
+							<p>EViento provides you the best deals that you could find.</p>
 						</div>
 						<div class="button discover_button"><a href="#">discover</a></div>
 					</div>
 					<div class="col-lg-7">
 						<div class="discover_text">
-							<p>Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scelerisque at. Quisque eget sem non ligula consectetur ultrices in quis augue. Donec imperd iet leo eget tortor dictum, eget varius eros sagittis. Curabitur tempor dignissim massa ut faucibus sollicitudin tinci dunt maximus. Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis. Donec pharetra mattis nulla, id laoreet neque scelerisque at. Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scelerisque at. Quisque eget sem non ligula consectetur ultrices in quis augue.</p>
+							<p>EViento ensures the lowest prices which a resort could provide to you. No other website or broker could provide you such amazing offers.</p>
 						</div>
 					</div>
 				</div>
@@ -490,7 +493,7 @@
 							<!-- Slide -->
 							<div>
 								<div class="testimonial_text text-center">
-									<p>Maecenas sollicitudin tincidunt maximus. Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scelerisque at. Quisque eget sem non ligula consectetur ultrices in quis augue. Donec imperd iet leo eget tortor dictum, eget varius eros sagittis. Curabitur tempor dignissim massa ut faucibus sollicitudin tinci dunt maximus. Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scele risque at. Quisque eget.</p>
+									<p>It was a very nice booking experience. The food, staff and venue manager were nice.</p>
 								</div>
 								<div class="testimonial_author text-center">
 									<div class="testimonial_author_image"><img src="image/author_1.jpg" alt=""/></div>
@@ -501,7 +504,7 @@
 							<!-- Slide -->
 							<div>
 								<div class="testimonial_text text-center">
-									<p>Maecenas sollicitudin tincidunt maximus. Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scelerisque at. Quisque eget sem non ligula consectetur ultrices in quis augue. Donec imperd iet leo eget tortor dictum, eget varius eros sagittis. Curabitur tempor dignissim massa ut faucibus sollicitudin tinci dunt maximus. Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scele risque at. Quisque eget.</p>
+									<p>Good experience and no issues were faced while booking</p>
 								</div>
 								<div class="testimonial_author text-center">
 									<div class="testimonial_author_image"><img src="image/author_1.jpg" alt=""/></div>
@@ -512,7 +515,7 @@
 							<!-- Slide -->
 							<div>
 								<div class="testimonial_text text-center">
-									<p>Maecenas sollicitudin tincidunt maximus. Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scelerisque at. Quisque eget sem non ligula consectetur ultrices in quis augue. Donec imperd iet leo eget tortor dictum, eget varius eros sagittis. Curabitur tempor dignissim massa ut faucibus sollicitudin tinci dunt maximus. Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scele risque at. Quisque eget.</p>
+									<p>It was a good booking experience. The food and service at the venue were excellent.</p>
 								</div>
 								<div class="testimonial_author text-center">
 									<div class="testimonial_author_image"><img src="image/author_1.jpg" alt=""/></div>

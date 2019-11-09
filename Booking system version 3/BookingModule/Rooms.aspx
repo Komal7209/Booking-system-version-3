@@ -71,9 +71,9 @@
                     <div class="hamburger"><i class="fa fa-bars" aria-hidden="true"></i></div>
 
                 </div>
-
                 <!-- Search Panel -->
                 <div class="search_panel">
+
                     <div class="search_panel_content d-flex flex-row align-items-center justify-content-start">
                         <img src="image/search.png" alt="" />
                         <form action="#" class="search_form" id="form1" runat="server">
@@ -209,28 +209,29 @@
                                 <img class="card-img-top" src="image/room_1.jpg" alt="Room image description" />
                                 <div class="card-body">
                                     <div class="rooms_title">
-                                        <h2>Luxury Double Suite</h2>
+                                        <h2>Lemon Tree</h2>
                                     </div>
                                     <div class="rooms_text">
-                                        <p>Maecenas sollicitudin tincidunt maximus. Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scelerisque at. Quisque eget sem non ligula consectetur ultrices in quis augue. Donec imperd iet leo eget tortor dictum, eget varius eros sagittis. Curabitur tempor dignissim massa ut faucibus sollicitudin tinci dunt maximus. Morbi tempus malesuada erat sed pellentesque.</p>
+                                        <p>Lemon Tree Hotel is equipped with modern state-of-the-art facilities and is specially designed to give your wedding party a fresh makeover. Lemon Tree offers a refreshing setting with stylish interiors and hospitable services that make it an ideal location for weddings, parties and corporate functions. Hotel Lemon Tree Banquet Hall has arrangements for catering and decoration to help you make hassle-free arrangements in no time. 
+The banquet hall, Tangerine Grand Lemon Tree is huge and can hold a large gathering. It is an elegantly designed banquet hall, which is Air-Conditioned to keep your guests comfortable irrespective of the weather conditions outside. The other hall, Tangerine is apt for functions that have a mid-sized gathering. The staff here at Lemon Tree Hotel makes sure that all your functions are well-organized and smooth.</p>
                                     </div>
                                     <div class="rooms_list">
                                         <ul>
                                             <li class="d-flex flex-row align-items-center justify-content-start">
                                                 <img src="../image/check.png" alt="" />
-                                                <span>Morbi tempus malesuada erat sed</span>
+                                                <span>Venue is perfect for both pre-wedding and wedding ceremonies</span>
                                             </li>
                                             <li class="d-flex flex-row align-items-center justify-content-start">
                                                 <img src="../image/check.png" alt="" />
-                                                <span>Tempus malesuada erat sed</span>
+                                                <span>Friendly and helpful staff</span>
                                             </li>
                                             <li class="d-flex flex-row align-items-center justify-content-start">
                                                 <img src="../image/check.png" alt="" />
-                                                <span>Pellentesque vel neque finibus elit</span>
+                                                <span>In-house decorators and caterers take care of everything</span>
                                             </li>
                                         </ul>
                                     </div>
-                                    <div class="rooms_price">$129/<span>Night</span></div>
+                                    <div class="rooms_price">₹900/<span>Per Plate</span></div>
                                     <div class="button rooms_button"><a href="#">book now</a></div>
                                 </div>
                             </div>
@@ -240,28 +241,28 @@
                                 <img class="card-img-top" src="../image/room_2.jpg" alt="Room image description" />
                                 <div class="card-body">
                                     <div class="rooms_title">
-                                        <h2>Luxury Double Suite</h2>
+                                        <h2>De Grandeur Hotel And Banquets</h2>
                                     </div>
                                     <div class="rooms_text">
-                                        <p>Maecenas sollicitudin tincidunt maximus. Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scelerisque at. Quisque eget sem non ligula consectetur ultrices in quis augue. Donec imperd iet leo eget tortor dictum, eget varius eros sagittis. Curabitur tempor dignissim massa ut faucibus sollicitudin tinci dunt maximus. Morbi tempus malesuada erat sed pellentesque.</p>
+                                        <p>De Grandeur Hotel and Banquets is an ideal venue hosting your small functions like birthdays, anniversaries, pre-wedding functions, weddings and reception ceremonies. Treat your guests with a royal feast of multi-cuisine delicacies to choose from in both vegetarian and non-vegetarian food. De Grandeur Hotel and Banquets allows you to get your own caterer from outside to serve your favorite cuisines to your guests. The decor team takes care of the decoration for your big day.</p>
                                     </div>
                                     <div class="rooms_list">
                                         <ul>
                                             <li class="d-flex flex-row align-items-center justify-content-start">
                                                 <img src="../image/check.png" alt="" />
-                                                <span>Morbi tempus malesuada erat sed</span>
+                                                <span>Multiple spaces for different functions</span>
                                             </li>
                                             <li class="d-flex flex-row align-items-center justify-content-start">
                                                 <img src="../image/check.png" alt="" />
-                                                <span>Tempus malesuada erat sed</span>
+                                                <span>In-house decorators and caterers take care of everything</span>
                                             </li>
                                             <li class="d-flex flex-row align-items-center justify-content-start">
                                                 <img src="../image/check.png" alt="" />
-                                                <span>Pellentesque vel neque finibus elit</span>
+                                                <span>Open catering</span>
                                             </li>
                                         </ul>
                                     </div>
-                                    <div class="rooms_price">$129/<span>Night</span></div>
+                                    <div class="rooms_price">₹1000/<span>Per Plate</span></div>
                                     <div class="button rooms_button"><a href="#">book now</a></div>
                                 </div>
                             </div>
@@ -271,28 +272,29 @@
                                 <img class="card-img-top" src="../image/room_3.jpg" alt="Room image description" />
                                 <div class="card-body">
                                     <div class="rooms_title">
-                                        <h2>Luxury Single Room</h2>
+                                        <h2>Holiday Inn</h2>
                                     </div>
                                     <div class="rooms_text">
-                                        <p>Maecenas sollicitudin tincidunt maximus. Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scelerisque at.</p>
+                                        <p>Holiday Inn is a lavish venue to host your pre-wedding, wedding, and reception ceremony. Holiday Inn Banquet Hall serves flavorsome delicacies to choose from in both vegetarian and non-vegetarian food to their guests. 
+Holiday Inn gives you the freedom to get your own decorator from outside to decorate the venue as per your requirements. The lavish décor of the venue gives a special touch to your big day. It has luxurious rooms for your invitees which gives them a comfortable stay.</p>
                                     </div>
                                     <div class="rooms_list">
                                         <ul>
                                             <li class="d-flex flex-row align-items-center justify-content-start">
                                                 <img src="../image/check.png" alt="" />
-                                                <span>Morbi tempus malesuada erat sed</span>
+                                                <span>Poolside perfect for fun cocktail parties</span>
                                             </li>
                                             <li class="d-flex flex-row align-items-center justify-content-start">
                                                 <img src="../image/check.png" alt="" />
-                                                <span>Tempus malesuada erat sed</span>
+                                                <span>Sprawling lawn for outdoor events</span>
                                             </li>
                                             <li class="d-flex flex-row align-items-center justify-content-start">
                                                 <img src="../image/check.png" alt="" />
-                                                <span>Pellentesque vel neque finibus elit</span>
+                                                <span>In-house decorators and caterers take care of everything</span>
                                             </li>
                                         </ul>
                                     </div>
-                                    <div class="rooms_price">$129/<span>Night</span></div>
+                                    <div class="rooms_price">₹800/<span>Per Plate</span></div>
                                     <div class="button rooms_button"><a href="#">book now</a></div>
                                 </div>
                             </div>
@@ -303,28 +305,29 @@
                                 <div class="card-special-panel">special offer</div>
                                 <div class="card-body">
                                     <div class="rooms_title">
-                                        <h2>Budget Suite</h2>
+                                        <h2>Royal Park Resorts</h2>
                                     </div>
                                     <div class="rooms_text">
-                                        <p>Maecenas sollicitudin tincidunt maximus. Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scelerisque at.</p>
+                                        <p>Royal Park Resorts is one gorgeously exquisite wedding venues available in the suburban lanes of the city. This beautiful yet elegant venue is ideal for all social gatherings, small weddings, social events, rituals and ceremonies, engagement parties, and many more. It has a lush green lawn that can be combined with the hall for convenience. 
+Royal Park Resorts also has a terrace for having an open-air function and offers a spectacular overview at night. Here one can avail comfortable lodging facilities to make your stay more enjoyable. At Royal Park Resort you can organize private and corporate functions. Here, delectable food and beverages are available in both vegetarian and non-vegetarian.</p>
                                     </div>
                                     <div class="rooms_list">
                                         <ul>
                                             <li class="d-flex flex-row align-items-center justify-content-start">
                                                 <img src="../image/check.png" alt="" />
-                                                <span>Morbi tempus malesuada erat sed</span>
+                                                <span>Lawn attached to banquet for convenience</span>
                                             </li>
                                             <li class="d-flex flex-row align-items-center justify-content-start">
                                                 <img src="../image/check.png" alt="" />
-                                                <span>Tempus malesuada erat sed</span>
+                                                <span>Food and decor curated in-house</span>
                                             </li>
                                             <li class="d-flex flex-row align-items-center justify-content-start">
                                                 <img src="../image/check.png" alt="" />
-                                                <span>Pellentesque vel neque finibus elit</span>
+                                                <span>Open decoration</span>
                                             </li>
                                         </ul>
                                     </div>
-                                    <div class="rooms_price">$129/<span>Night</span></div>
+                                    <div class="rooms_price">₹650/<span>Per Plate</span></div>
                                     <div class="button rooms_button"><a href="#">book now</a></div>
                                 </div>
                             </div>
@@ -403,3 +406,4 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src="../js/rooms.js"></script>
 </body>
 </html>
++

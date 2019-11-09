@@ -221,7 +221,7 @@
 									</ul>
 								</div>
 								<div class="blog_post_text">
-									<p>Maecenas sollicitudin tincidunt maximus. Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scelerisque at. Quisque eget sem non ligula consectetur ultrices in quis augue. Donec imperd iet leo eget tortor dictum, eget varius eros sagittis.</p>
+									<p>When you organize a wedding function, your utmost priority is your guest. So, while making the arrangements you must put yourself in place of your guests and think from their perspective about what is and what isn’t comfortable for you. It is only after you understand your guest’s mindset; you can throw a successful bash. To make sure that next time you book a wedding venue you don’t falter in an y aspect, here are some tips for you to consider while choosing the best venue</p>
 								</div>
 								<div class="button blog_post_button"><a href="#">read more</a></div>
 							</div>
@@ -252,7 +252,7 @@
 									</ul>
 								</div>
 								<div class="blog_post_text">
-									<p>Maecenas sollicitudin tincidunt maximus. Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scelerisque at. Quisque eget sem non ligula consectetur ultrices in quis augue. Donec imperd iet leo eget tortor dictum, eget varius eros sagittis.</p>
+									<p>Destination weddings are ina trend nowadays. Destination weddings provide you and your family a trip along with your marriage, so all of you explore the new place and it provides better opportunityy for both the families to understand each other.</p>
 								</div>
 								<div class="button blog_post_button"><a href="#">read more</a></div>
 							</div>
@@ -283,7 +283,7 @@
 									</ul>
 								</div>
 								<div class="blog_post_text">
-									<p>Maecenas sollicitudin tincidunt maximus. Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scelerisque at. Quisque eget sem non ligula consectetur ultrices in quis augue. Donec imperd iet leo eget tortor dictum, eget varius eros sagittis.</p>
+									<p>Planning a venue for wedding is not enough but planning should also be on time so that the venue should be available to you and all the necessary arrangements should be done well before time in order to reduce the stress on the special day.</p>
 								</div>
 								<div class="button blog_post_button"><a href="#">read more</a></div>
 							</div>
