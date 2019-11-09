@@ -1,24 +1,30 @@
 ﻿body {
 }
 #container {
-margin-left:5%;
-margin-right:5%;
-margin-bottom:5%;
-margin-top:5%;
+/*margin-left:2%;
+margin-right:2%;
+margin-bottom:2%;
+margin-top:2%;*/
+flex:1;
+flex-direction:row;
 }
 #left {
     background-color: aliceblue;
 float: left;
 width:50%;
     height: 596px;
+    /*display:inline;*/
 }
-
 #right {
+    flex-direction:column;
+}
+#form {
     background-color: antiquewhite;
     border-style:inset;
     border-width: 2px;
     float:right;
     width:50%;
+    /*display:inline;*/
     /*text-align:center;*/
 }
 #fb {
