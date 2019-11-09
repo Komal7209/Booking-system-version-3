@@ -1,6 +1,14 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="HomePageLogin.aspx.cs" Inherits="LoginModule_HomePageLogin" UnobtrusiveValidationMode="none" %>
 
 <!DOCTYPE html>
+<script runat="server">
+
+    protected void ImageButton1_Click(object sender, ImageClickEventArgs e)
+    {
+
+    }
+</script>
+
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
@@ -23,17 +31,18 @@
                 <br />
                 <br />
                 <%--<asp:Image ID="Image1" runat="server" ImageUrl="~/images/facebook.png" CssClass="auto-style1" Height="45px" ImageAlign="Middle" Width="65px"/>--%>
-                <asp:ImageButton ID="ImageButton1" runat="server" src="../image/logInWithFB.png" Height="92px" Width="410px" />
+                <asp:ImageButton ID="ImageButton1" runat="server" src="../image/logIn/logInWithFB.png" Height="99px" Width="410px" OnClick="ImageButton1_Click" />
                 <%--<asp:Button ID="Button1" runat="server" BackColor="#333399" ForeColor="White" Height="50px" Text="Log in with Facebook" />--%>
 
                 <br />
                 <br />
-                OR
+                -------------------------   OR   -------------------------
             <br />
                 <br />
                 <br />
                 <br />
                 <asp:Label ID="Label1" runat="server" Text="Email"></asp:Label>
+                &nbsp;
                 <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
                 <asp:RegularExpressionValidator runat="server" ID="rexemail" ControlToValidate="TextBox1" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" ErrorMessage="Please enter valid email" ForeColor="Red" Display="Dynamic"></asp:RegularExpressionValidator>
                 <br />
@@ -51,6 +60,7 @@
                         <br />
                         <br />
                         <asp:Button ID="Button2" runat="server" BackColor="White" BorderColor="Red" BorderStyle="Solid" ForeColor="Red" Text="Sign up" />
+                        <br />
                     </div>
                     
                     <asp:Label ID="Label3" runat="server" Text="Are You A Business?"></asp:Label>

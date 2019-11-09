@@ -15,9 +15,10 @@
                 <h4>Sign In</h4>
 
                 <div id="fb">
-                    <div id="fbbutton">
+                    <asp:ImageButton ID="ImageButton1" runat="server" src="../image/logIn/logInWithFB.png"  Height="98px" Width="410px"  />
+                    <%--<div id="fbbutton">
                         <asp:Label runat="server" Text="SIGN UP WITH FACEBOOK" image="" OnClick="Button1_Click" />
-                    </div>
+                    </div>--%>
                     <br />
                     We will not post anything without your permission
 
@@ -25,7 +26,7 @@
                     <br />
                 </div>
 
-                Email :
+                Email :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <asp:TextBox ID="TextBox1" runat="server" ClientIDMode="Static" /><br />
 
                 Password :
