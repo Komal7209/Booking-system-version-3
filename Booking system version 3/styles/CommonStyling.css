@@ -1,0 +1,11 @@
+﻿body {
+}
+#centre{
+    text-align:center;
+}
+#row{
+    flex-direction:row;
+}
+#column{
+    flex-direction:column;
+}

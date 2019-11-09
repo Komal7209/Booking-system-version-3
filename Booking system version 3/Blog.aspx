@@ -212,10 +212,10 @@
 								</div>
 							</div>
 							<div class="blog_post_content">
-								<div class="blog_post_title"><h2><a href="#">How to plan the perfect vacation</a></h2></div>
+								<div class="blog_post_title"><h2><a href="#">How to plan the perfect venue</a></h2></div>
 								<div class="blog_post_tags">
 									<ul class="d-flex flex-row align-items-start justify-content-start flex-wrap">
-										<li><a href="#">Vacation</a></li>
+										<li><a href="#">Venue</a></li>
 										<li><a href="#">Trip</a></li>
 										<li><a href="#">Hotel</a></li>
 									</ul>
@@ -246,7 +246,7 @@
 								<div class="blog_post_title"><h2><a href="#">Do you want a destination wedding?</a></h2></div>
 								<div class="blog_post_tags">
 									<ul class="d-flex flex-row align-items-start justify-content-start flex-wrap">
-										<li><a href="#">Vacation</a></li>
+										<li><a href="#">Venue</a></li>
 										<li><a href="#">Trip</a></li>
 										<li><a href="#">Hotel</a></li>
 									</ul>
@@ -274,10 +274,10 @@
 								</div>
 							</div>
 							<div class="blog_post_content">
-								<div class="blog_post_title"><h2><a href="#">Plan your vacation on time</a></h2></div>
+								<div class="blog_post_title"><h2><a href="#">Plan your venue on time</a></h2></div>
 								<div class="blog_post_tags">
 									<ul class="d-flex flex-row align-items-start justify-content-start flex-wrap">
-										<li><a href="#">Vacation</a></li>
+										<li><a href="#">Venue</a></li>
 										<li><a href="#">Trip</a></li>
 										<li><a href="#">Hotel</a></li>
 									</ul>

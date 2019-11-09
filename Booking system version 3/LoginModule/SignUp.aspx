@@ -70,12 +70,12 @@ A-Z of wedding planning
                         <br />
                         <asp:Label ID="Label1" runat="server" Text="First Name"></asp:Label>
                         <br />
-                        <asp:TextBox ID="TextBox1" runat="server" ToolTip="Enter First Name"></asp:TextBox>
+                        <asp:TextBox ID="TextBox1" runat="server" ToolTip="Enter First Name" ></asp:TextBox>
                         <br />
                         <br />
                         <asp:Label ID="Label2" runat="server" Text="Last Name"></asp:Label>
                         <br />
-                        <asp:TextBox ID="TextBox2" runat="server" ToolTip="Enter Last Name" OnTextChanged="TextBox2_TextChanged"></asp:TextBox>
+                        <asp:TextBox ID="TextBox2" runat="server" ToolTip="Enter Last Name" ></asp:TextBox>
                         <br />
                         <br />
                         <asp:Label ID="Label3" runat="server" Text="Email"></asp:Label>
@@ -90,12 +90,12 @@ A-Z of wedding planning
                         <br />
                         <asp:Label ID="Label5" runat="server" Text="Password"></asp:Label>
                         <br />
-                        <asp:TextBox ID="TextBox5" runat="server" ToolTip="Enter your password" TextMode="Password" OnTextChanged="TextBox5_TextChanged"></asp:TextBox>
+                        <asp:TextBox ID="TextBox5" runat="server" ToolTip="Enter your password" TextMode="Password" ></asp:TextBox>
                         <br />
                         <br />
                         <asp:Label ID="Label6" runat="server" Text="Confirm Password"></asp:Label>
                         <br />
-                        <asp:TextBox ID="TextBox6" runat="server" ToolTip="Re-enter Password" TextMode="Password"></asp:TextBox>
+                        <asp:TextBox ID="TextBox6" runat="server" ToolTip="Re-enter Password" TextMode="Password" ></asp:TextBox>
                         <br />
                         <br />
                         <div>

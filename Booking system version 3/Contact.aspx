@@ -237,7 +237,7 @@
 							<h1>Say Hello</h1>
 						</div>
 						<div class="contact_text text-center">
-							<p>If you have any questions, please feel free to drop us a line.If you have any question, please feel  free to drop us a line. We will reply as soon as possible
+							<p>If you have any question, please feel  free to drop us a line. We will reply as soon as possible
 						</div>
 						<div class="contact_form_container">
 							<form action="#" class="contact_form text-center">
