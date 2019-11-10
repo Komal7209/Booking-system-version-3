@@ -9,3 +9,8 @@
 #column{
     flex-direction:column;
 }
+#bold {
+    text-shadow: inherit;
+    font: italic bold 12px/30px Georgia, serif;
+    font-size:20px;
+}

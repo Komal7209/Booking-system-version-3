@@ -48,7 +48,7 @@
                 <br />
                 <br />
                 <br />
-                <asp:Button ID="Button1" runat="server" BackColor="Red" BorderStyle="Solid" Text="Next" />
+                <asp:Button ID="Button1" runat="server" BackColor="Red" BorderStyle="Solid" Text="Next" PostBackUrl="~/LoginModule/SignUp.aspx" />
                 <br />
                 <br />
                 <a href="ForgotPassword.aspx">Forgot Password ?</a>
@@ -59,7 +59,7 @@
                         <asp:Label ID="Label2" runat="server" Text="Don't have an account?"></asp:Label>
                         <br />
                         <br />
-                        <asp:Button ID="Button2" runat="server" BackColor="White" BorderColor="Red" BorderStyle="Solid" ForeColor="Red" Text="Sign up" />
+                        <asp:Button ID="Button2" runat="server" BackColor="White" BorderColor="Red" BorderStyle="Solid" ForeColor="Red" Text="Sign up" PostBackUrl="~/LoginModule/SignUp.aspx" />
                         <br />
                     </div>
                     

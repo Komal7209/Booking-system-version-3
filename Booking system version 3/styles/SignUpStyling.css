@@ -11,9 +11,9 @@ flex-direction:row;
 #left {
     background-color: aliceblue;
 float: left;
-width:50%;
+width:45%;
     height: 596px;
-    /*display:inline;*/
+    display:inline;
 }
 #right {
     flex-direction:column;
@@ -23,8 +23,8 @@ width:50%;
     border-style:inset;
     border-width: 2px;
     float:right;
-    width:50%;
-    /*display:inline;*/
+    width:45%;
+    display:inline;
     /*text-align:center;*/
 }
 #fb {

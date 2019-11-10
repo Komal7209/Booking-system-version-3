@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="LoginPopUp.aspx.cs" Inherits="LoginModule_LoginPopUp" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="LoginPopUp.aspx.cs" Inherits="LoginModule_LoginPopUp" UnobtrusiveValidationMode="none"%>
 
 <!DOCTYPE html>
 
@@ -32,7 +32,7 @@
                 Password :
                 <asp:TextBox ID="TextBox2" runat="server" ClientIDMode="Static" /><br />
 
-                <asp:Button runat="server" Text="Submit" OnClientClick="SubmitPage()" />
+                <asp:Button runat="server" Text="Submit" OnClientClick="SubmitPage()" PostBackUrl="~/About.aspx" />
 
             </div>
         </div>

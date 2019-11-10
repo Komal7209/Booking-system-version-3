@@ -46,7 +46,12 @@
 					<li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
 					<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
 					<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                    <li><img src="image/profile/user.png" width="25" height="25"/><i aria-hidden="true"></i></li>
+                     <li><a href="#"><asp:HyperLink ID="HyperLink2" runat="server" ImageUrl="image/profile/user.png"
+                    Height="25" Width="25"  NavigateUrl="~/LoginModule/HomePageLogin.aspx">
+                     </asp:HyperLink>      
+                     <i  aria-hidden="true"></i></a></li>
+                    <%--<li><asp:ImageButton ID="ImageButton2" runat="server" src="image/profile/user.png" width="25" height="25"/><i aria-hidden="true"></i></li>--%>
+                    <%--<li><img src="image/profile/user.png" width="25" height="25"/><i aria-hidden="true"></i></li>--%>
 					<%--<li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>--%>
 					<%--<li><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>--%>
 				</ul>
@@ -128,11 +133,21 @@
 					<li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
 					<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
 					<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-					<%--<li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>--%>
+                    <li><a href="#"><asp:HyperLink ID="BulletHyperLink" runat="server" ImageUrl="image/profile/user.png"
+                Height="25" Width="25" NavigateUrl="~/LoginModule/HomePageLogin.aspx">
+            </asp:HyperLink>      
+                        <i aria-hidden="true"></i></a></li>
+                   
+
+                    <%--<li><a href="#"><img src="image/profile/user.png" width="25" height="25" OnClientClick="LoginModule/HomePageLogin.aspx"/><i aria-hidden="true"></i></a></li>--%>
+               <%--<li><img src="image/profile/user.png" alt="bottle" class="thumbnails" width="25" height="25" onclick="imageClick('image/profile/user.png')" /><i aria-hidden="true"></i></li>--%>
+                     <%--<li><asp:ImageButton ID="ImageButton1" runat="server" src="image/profile/user.png" width="25" height="25" OnClientClick="~/LoginModule/HomePageLogin.aspx" /><i aria-hidden="true"></i></li>--%>
+                    <%--<li><img src="image/profile/user.png" width="25" height="25" <a href="LoginModule/HomePageLogin.aspx"/><i aria-hidden="true"></i></li>--%>
+                    <%--<li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>--%>
 					<%--<li><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>--%>
 				</ul>
 			</div>
-
+          <%--  <a href="LoginModule/HomePageLogin.aspx">LoginModule/HomePageLogin.aspx</a>--%>
 		</div>
 	</div>
 

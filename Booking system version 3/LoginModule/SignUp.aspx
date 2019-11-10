@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="SignUp.aspx.cs" Inherits="LoginModule_SignUp" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="SignUp.aspx.cs" Inherits="LoginModule_SignUp" UnobtrusiveValidationMode="none" %>
 
 <!DOCTYPE html>
 
@@ -12,32 +12,34 @@
         <div>
             <div id="container">
                 <div id="left">
-                    Sign Up and Start Planning Your Dream Wedding!
-            
-                 <br />
-                    Why Sign Up?
+                    <h1>Sign Up and Start Planning Your Dream Wedding!   </h1>
+                    <br />
+                    <h3>Why Sign Up?  </h3>
 
-                 <br />
-                    <asp:Image ID="Image1" runat="server" ImageUrl="~/image/signUp/search.png" Height="138px"/>
+                    <br />
+                    <asp:Image ID="Image1" runat="server" ImageUrl="~/image/signUp/search.png" Height="138px" />
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <asp:Image ID="Image2" runat="server" ImageUrl="~/image/signUp/test.png" Width="133px"/>
+                    <asp:Image ID="Image2" runat="server" ImageUrl="~/image/signUp/test.png" Width="133px" />
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <asp:Image ID="Image3" runat="server" ImageUrl="~/image/signUp/money.png" Width="136px"/>
+                    <asp:Image ID="Image3" runat="server" ImageUrl="~/image/signUp/money.png" Width="136px" />
                     <br />
                     <br />
-                    Shortlist venues & vendors&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Check availability of your&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Get best rates <br />
-&nbsp;based on our recommendations&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; faviourate venues<br />
+                    Shortlist venues & vendors&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Check availability of your&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Get best rates
+                    <br />
+                    &nbsp;based on our recommendations&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; favourite venues<br />
                     <br />
                     <br />
                     <br />
                     <asp:Image ID="Image4" runat="server" Height="126px" Width="123px" ImageUrl="~/image/signUp/team.png" />
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
-                    <asp:Image ID="Image5" runat="server" Width="124px" ImageUrl="~/image/signUp/search (1).png"/>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <asp:Image ID="Image6" runat="server" ImageUrl="~/image/signUp/tips.png" style="margin-right: 0px" Width="124px"/>
+                    <asp:Image ID="Image5" runat="server" Width="124px" ImageUrl="~/image/signUp/search (1).png" />
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:Image ID="Image6" runat="server" ImageUrl="~/image/signUp/tips.png" Style="margin-right: 0px" Width="124px" />
                     <br />
                     <br />
                     <br />
-                    Schedule venue visit&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Get best offers&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Get tips and ideas on a-z <br />
+                    Schedule venue visit&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Get best offers&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Get tips and ideas on a-z
+                    <br />
                     with our experts&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; and deals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; of wedding planning<br />
                     <br />
                     And much more!
@@ -51,9 +53,8 @@
 
 
                             <div id="fbbutton">
-                                <%--to insert fb icon--%>
-
-                                 <asp:Label ID="Label10" runat="server" text="SIGN UP WITH FACEBOOK" image="" OnClick="Button1_Click"/> 
+                                <asp:ImageButton ID="ImageButton1" runat="server" src="../image/logIn/logInWithFB.png" Height="67px" Width="425px" OnClick="ImageButton1_Click" />
+                                <%--<asp:Label ID="Label10" runat="server" Text="SIGN UP WITH FACEBOOK" image="" OnClick="Button1_Click" />--%>
                                 <%--<asp:LinkButton ID="lblMyLink" OnClick="lblMyLink_Click" runat="server" Style="display: none;">My Link</asp:LinkButton>
                                 <span onclick="document.getElementById('lblMyLink').click();">SIGN UP WITH FACEBOOK</span>--%>
                             </div>
@@ -75,12 +76,12 @@
                         <br />
                         <asp:Label ID="Label1" runat="server" Text="First Name"></asp:Label>
                         <br />
-                        <asp:TextBox ID="TextBox1" runat="server" ToolTip="Enter First Name" ></asp:TextBox>
+                        <asp:TextBox ID="TextBox1" runat="server" ToolTip="Enter First Name"></asp:TextBox>
                         <br />
                         <br />
                         <asp:Label ID="Label2" runat="server" Text="Last Name"></asp:Label>
                         <br />
-                        <asp:TextBox ID="TextBox2" runat="server" ToolTip="Enter Last Name" ></asp:TextBox>
+                        <asp:TextBox ID="TextBox2" runat="server" ToolTip="Enter Last Name"></asp:TextBox>
                         <br />
                         <br />
                         <asp:Label ID="Label3" runat="server" Text="Email"></asp:Label>
@@ -95,12 +96,12 @@
                         <br />
                         <asp:Label ID="Label5" runat="server" Text="Password"></asp:Label>
                         <br />
-                        <asp:TextBox ID="TextBox5" runat="server" ToolTip="Enter your password" TextMode="Password" ></asp:TextBox>
+                        <asp:TextBox ID="TextBox5" runat="server" ToolTip="Enter your password" TextMode="Password"></asp:TextBox>
                         <br />
                         <br />
                         <asp:Label ID="Label6" runat="server" Text="Confirm Password"></asp:Label>
                         <br />
-                        <asp:TextBox ID="TextBox6" runat="server" ToolTip="Re-enter Password" TextMode="Password" ></asp:TextBox>
+                        <asp:TextBox ID="TextBox6" runat="server" ToolTip="Re-enter Password" TextMode="Password"></asp:TextBox>
                         <br />
                         <br />
                         <div>
@@ -109,7 +110,7 @@
                             <br />
                             <br />
 
-                            <asp:Button ID="Button1" runat="server" Text="Submit" OnClick="Button1_Click" />
+                            <asp:Button ID="Button1" runat="server" Text="Submit" OnClick="Button1_Click" PostBackUrl="~/LoginModule/LoginPopUp.aspx" />
 
                         </div>
 
@@ -119,7 +120,7 @@
                         Already have an account? Log In
                     </div>
                 </div>
-        </div>
+            </div>
         </div>
     </form>
 </body>
