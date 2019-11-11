@@ -10,7 +10,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div id="centre" class="popUp wrapper ">
+        <div id="centre" class="popUp">
             <div id="containerLogIn">
                 <h1>Sign In</h1>
 

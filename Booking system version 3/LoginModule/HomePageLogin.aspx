@@ -24,7 +24,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div id="centre" class="popUp wrapper">
+        <div id="centre" class="popUp ">
             <div style="font-weight: bold">
                 <h1>Log In With </h1>
 

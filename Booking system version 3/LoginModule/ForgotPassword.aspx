@@ -9,7 +9,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div id="centre" class="popUp wrapper">
+        <div id="centre" class="popUp">
 
             <asp:Image ID="Image1" runat="server" href="../image/forgotPassword/password.png" Height="153px" />
             <br />
