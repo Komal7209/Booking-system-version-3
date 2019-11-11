@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="LoginPopUp.aspx.cs" Inherits="LoginModule_LoginPopUp" UnobtrusiveValidationMode="none"%>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="LoginPopUp.aspx.cs" Inherits="LoginModule_LoginPopUp" UnobtrusiveValidationMode="none" %>
 
 <!DOCTYPE html>
 
@@ -10,29 +10,43 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div id="centre">
+        <div id="centre" class="popUp wrapper ">
             <div id="containerLogIn">
-                <h4>Sign In</h4>
+                <h1>Sign In</h1>
 
                 <div id="fb">
-                    <asp:ImageButton ID="ImageButton1" runat="server" src="../image/logIn/logInWithFB.png"  Height="98px" Width="410px"  />
+                    <asp:ImageButton ID="ImageButton1" runat="server" src="../image/logIn/logInWithFB.png" Height="57px" Width="410px" />
                     <%--<div id="fbbutton">
                         <asp:Label runat="server" Text="SIGN UP WITH FACEBOOK" image="" OnClick="Button1_Click" />
                     </div>--%>
                     <br />
+                    <br />
+
                     We will not post anything without your permission
 
-    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
                     <br />
                 </div>
 
-                Email :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <asp:TextBox ID="TextBox1" runat="server" ClientIDMode="Static" /><br />
+                Email :&nbsp;&nbsp;<asp:TextBox ID="TextBox1" runat="server" ClientIDMode="Static" ForeColor="Red" />
+                <asp:RegularExpressionValidator ID="email" runat="server" ControlToValidate="TextBox1" Display="Dynamic" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" ErrorMessage="  Enter Valid Email Id"></asp:RegularExpressionValidator>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="TextBox1" ErrorMessage=" Required Field" Display="Dynamic"></asp:RequiredFieldValidator>
+                <br />
+                <br />
+
+                &nbsp;&nbsp;&nbsp;
 
                 Password :
-                <asp:TextBox ID="TextBox2" runat="server" ClientIDMode="Static" /><br />
+                <asp:TextBox ID="TextBox2" runat="server" ClientIDMode="Static" />
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="TextBox2" ErrorMessage="  Required Field"></asp:RequiredFieldValidator>
+                <br />
+                <br />
 
-                <asp:Button runat="server" Text="Submit" OnClientClick="SubmitPage()" PostBackUrl="~/About.aspx" />
+                <asp:Button runat="server" Text="Submit" BackColor="White" BorderColor="Red" BorderStyle="Solid" ForeColor="Fuchsia" TextColor="Black" CssClass="button" OnClientClick="SubmitPage()" PostBackUrl="~/About.aspx" />
 
             </div>
         </div>

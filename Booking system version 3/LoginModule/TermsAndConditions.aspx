@@ -114,7 +114,7 @@ Any dispute or controversy arising out of this Agreement shall, be subject to ex
                 </li>
             </ul>
             <div id="button">
-            <asp:Button ID="Button1" runat="server"  BackColor="White" BorderColor="Red" BorderStyle="Solid" ForeColor="Fuchsia" Text="AGREE AND SIGNUP" TextColor="Black" PostBackUrl="~/LoginModule/SignUp.aspx" />
+            <asp:Button ID="Button1" runat="server"  BackColor="White" BorderColor="Red" BorderStyle="Solid" ForeColor="Fuchsia" TextColor="Black" Text="AGREE AND SIGNUP" PostBackUrl="~/LoginModule/SignUp.aspx" />
            </div>
                 <br />
         </div>

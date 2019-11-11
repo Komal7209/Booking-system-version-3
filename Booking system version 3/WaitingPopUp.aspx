@@ -9,7 +9,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div id="centre">
+        <div id="centre" class="popUp">
             <br />
             <asp:Image ID="Image1" runat="server" src="image/waiting/waiting_icon.gif" Width="172px" />
             <%-- ImageUrl="~/images/35.gif"--%>
