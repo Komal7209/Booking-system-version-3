@@ -45,7 +45,7 @@ public partial class LoginModule_SignUp : System.Web.UI.Page
            
 
             conn.Close(); /*for closing connection*/
-            Response.Redirect("LoginPopUp.aspx");
+            Response.Redirect("http://localhost:50253/LoginModule/LoginPopUp.aspx");
         }
     }
 }

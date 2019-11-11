@@ -139,26 +139,39 @@
                     <asp:Label ID="Label1" runat="server" Text="First Name"></asp:Label>
                     <br />
                     <asp:TextBox ID="TextBox1" runat="server" ToolTip="Enter First Name" EnableViewState="true"></asp:TextBox>
+                     
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="TextBox1" ErrorMessage=" Required Field" Display="Dynamic" ForeColor="Red"></asp:RequiredFieldValidator>
+               
                     <br />
                     <br />
                     <asp:Label ID="Label2" runat="server" Text="Last Name"></asp:Label>
                     <br />
                     <asp:TextBox ID="TextBox2" runat="server" ToolTip="Enter Last Name" EnableViewState="true"></asp:TextBox>
+                     <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="TextBox2" ErrorMessage=" Required Field" Display="Dynamic" ForeColor="Red"></asp:RequiredFieldValidator>
+               
                     <br />
                     <br />
                     <asp:Label ID="Label3" runat="server" Text="Email"></asp:Label>
                     <br />
                     <asp:TextBox ID="TextBox3" runat="server" ToolTip="Enter Email" TextMode="Email" EnableViewState="true"></asp:TextBox>
+                    <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="TextBox3" Display="Dynamic" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" ErrorMessage="  Enter Valid Email Id" ForeColor="Red"></asp:RegularExpressionValidator>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="TextBox1" ErrorMessage=" Required Field" Display="Dynamic" ForeColor="Red"></asp:RequiredFieldValidator>
+               
                     <br />
                     <br />
                     <asp:Label ID="Label4" runat="server" Text="Mobile"></asp:Label>
                     <br />
                     <asp:TextBox ID="TextBox4" runat="server" ToolTip="Enter your mobile number" TextMode="Number" EnableViewState="true"></asp:TextBox>
+                    
+                     <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="TextBox4" ErrorMessage=" Required Field" Display="Dynamic" ForeColor="Red"></asp:RequiredFieldValidator>
+               
                     <br />
                     <br />
                     <asp:Label ID="Label5" runat="server" Text="Password"></asp:Label>
                     <br />
-                    <asp:TextBox ID="TextBox5" runat="server" ToolTip="Enter your password" TextMode="Password" EnableViewState="true"></asp:TextBox>
+                    <asp:TextBox ID="TextBox5" runat="server" ToolTip="Enter your password with One caps, one number, one special character" TextMode="Password" EnableViewState="true"></asp:TextBox>
+               
                     <br />
                     <br />
                     <asp:Label ID="Label6" runat="server" Text="Confirm Password"></asp:Label>

@@ -64,7 +64,7 @@
 				</div>
 
 				<!-- Header Link -->
-				<div class="header_link"><a href="#">Book Your Room Now</a></div>
+				<div class="header_link"><a href="#">Book Now</a></div>
 
 				<!-- Hamburger Button -->
 				<div class="hamburger"><i class="fa fa-bars" aria-hidden="true"></i></div>
@@ -471,7 +471,7 @@
 						<div class="quote">
 							<div class="sidebar_title"><h3>Quote of the day</h3></div>
 							<div class="quote_text">
-								<p>Sed ut perspiciatis unde omnis iste na tus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+								<p>A successful person is one who can lay a firm foundation with the bricks others have thrown at him.</p>
 							</div>
 						</div>
 

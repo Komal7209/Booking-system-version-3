@@ -33,6 +33,9 @@
     align-content: center;
     align-self: center;
 }
+.textColor{
+    color:aqua;
+}
 .popUp{
     border-bottom-color:aqua;
     border-top-color:aquamarine;
@@ -62,4 +65,8 @@
 /*the modal div has styles to to be on the top:*/
 .modal {
     z-index: 2;
+}
+.height{
+    height:50%;
+    margin-top:auto;
 }
