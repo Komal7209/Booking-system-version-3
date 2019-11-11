@@ -21,6 +21,28 @@ public partial class LoginModule_LoginPopUp : System.Web.UI.Page
 
     protected void Button1_Click(object sender, EventArgs e)
     {
+        //conn.Open();
+
+
+        //string checkuser = "select email from userInfo where email='" + TextBox1.Text + "'";    /*for extracting user email*/
+        //SqlCommand cmd = new SqlCommand(checkuser, conn);    /*for making connection*/
+        //SqlDataReader dr;
+        //dr = cmd.ExecuteReader(); /*for checking data command*/
+        //if (dr.HasRows)                              /*return 1 if it exists so response would be user exists*/
+        //{
+        //    Response.Redirect("Index.aspx");     /*this would  redirect to home page */
+        //    dr.Close();
+        //    conn.Close();
+        //}
+        //else
+        //{
+        //    dr.Close();
+        //    Response.Redirect("/LoginModule/SignUp.aspx"); /*if not already registered then it would redirect to signup page*/
+        //}
+    }
+
+    protected void Unnamed1_Click(object sender, EventArgs e)
+    {
         conn.Open();
 
 
@@ -30,14 +52,14 @@ public partial class LoginModule_LoginPopUp : System.Web.UI.Page
         dr = cmd.ExecuteReader(); /*for checking data command*/
         if (dr.HasRows)                              /*return 1 if it exists so response would be user exists*/
         {
-            Response.Redirect("Index.aspx");     /*this would  redirect to home page */
+            Response.Redirect("http://localhost:50253/Index.aspx");     /*this would  redirect to home page */
             dr.Close();
             conn.Close();
         }
         else
         {
             dr.Close();
-            Response.Redirect("/LoginModule/SignUp.aspx"); /*if not already registered then it would redirect to signup page*/
+            Response.Redirect("http://localhost:50253/LoginModule/SignUp.aspx"); /*if not already registered then it would redirect to signup page*/
         }
     }
 }

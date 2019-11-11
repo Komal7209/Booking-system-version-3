@@ -31,22 +31,22 @@
                     <br />
                 </div>
 
-                Email :&nbsp;&nbsp;<asp:TextBox ID="TextBox1" runat="server" ClientIDMode="Static" ForeColor="Red" />
-                <asp:RegularExpressionValidator ID="email" runat="server" ControlToValidate="TextBox1" Display="Dynamic" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" ErrorMessage="  Enter Valid Email Id"></asp:RegularExpressionValidator>
+                Email :&nbsp;&nbsp;<asp:TextBox ID="TextBox1" runat="server" ClientIDMode="Static" ForeColor="Black" />
+                <asp:RegularExpressionValidator ID="email" runat="server" ControlToValidate="TextBox1" Display="Dynamic" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" ErrorMessage="  Enter Valid Email Id" ForeColor="Red"></asp:RegularExpressionValidator>
                 &nbsp;&nbsp;&nbsp;&nbsp;
-                <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="TextBox1" ErrorMessage=" Required Field" Display="Dynamic"></asp:RequiredFieldValidator>
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="TextBox1" ErrorMessage=" Required Field" Display="Dynamic" ForeColor="Red"></asp:RequiredFieldValidator>
                 <br />
                 <br />
 
                 &nbsp;&nbsp;&nbsp;
 
                 Password :
-                <asp:TextBox ID="TextBox2" runat="server" ClientIDMode="Static" />
-                <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="TextBox2" ErrorMessage="  Required Field"></asp:RequiredFieldValidator>
+                <asp:TextBox ID="TextBox2" runat="server" ClientIDMode="Static" TextMode="Password" />
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="TextBox2" ErrorMessage="  Required Field" ForeColor="Red"></asp:RequiredFieldValidator>
                 <br />
                 <br />
 
-                <asp:Button runat="server" Text="Submit" BackColor="White" BorderColor="Red" BorderStyle="Solid" ForeColor="Fuchsia" TextColor="Black" CssClass="button" OnClientClick="SubmitPage()" PostBackUrl="~/About.aspx" />
+                <asp:Button runat="server" Text="Submit" BackColor="White" BorderColor="Red" BorderStyle="Solid" ForeColor="Fuchsia" TextColor="Black" CssClass="button" OnClientClick="SubmitPage()" PostBackUrl="~/About.aspx" OnClick="Unnamed1_Click" />
 
             </div>
         </div>
